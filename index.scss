@@ -1,0 +1,96 @@
+@import "./partials/tipography";
+@import "./partials/animations";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    line-height: 1.7;
+}
+
+body {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    &-brand {
+        font-size: 2rem;
+    }
+}
+
+.intro {
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 1)
+        ),
+        url("./chemistry-2.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+
+    &-studentInfo {
+        text-indent: 0.2rem;
+        letter-spacing: 0.2rem;
+        color: white;
+        position: absolute;
+        top: 95%;
+        left: 0;
+    }
+
+    &-header {
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-40%);
+
+        &_main {
+            @include moveAnimation(moveInRight, 0.2s);
+            animation-fill-mode: backwards;
+            display: inline-block;
+            font-size: 4rem;
+        }
+
+        &_sub {
+            @include moveAnimation(moveInLeft, 0.2s);
+            animation-fill-mode: backwards;
+            display: inline-block;
+        }
+    }
+
+    &-divisionLine {
+        margin: 0;
+        width: 100%;
+        border: none;
+        border-top: 0.5rem solid rgb(255, 123, 0);
+    }
+}
+
+.main {
+    margin-top: 4rem;
+
+    &-law {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    &-materials {
+        padding: 0 4rem;
+        ul {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &-method {
+        padding: 0 4rem;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "science-experiment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass index.scss index.css -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}

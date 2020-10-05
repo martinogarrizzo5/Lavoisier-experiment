@@ -1,0 +1,105 @@
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: "Merienda One", cursive; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif; }
+
+p,
+a {
+  font-size: 1.6rem; }
+
+li {
+  font-size: 1.4rem; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  line-height: 1.7; }
+
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+  .navbar-brand {
+    font-size: 2rem; }
+
+.intro {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), black), url("./chemistry-2.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 95vh;
+  position: relative; }
+  .intro-studentInfo {
+    text-indent: 0.2rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 0; }
+  .intro-header {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%); }
+    .intro-header_main {
+      animation: moveInRight 2s ease-out 0.2s;
+      animation-fill-mode: backwards;
+      display: inline-block;
+      font-size: 4rem; }
+    .intro-header_sub {
+      animation: moveInLeft 2s ease-out 0.2s;
+      animation-fill-mode: backwards;
+      display: inline-block; }
+  .intro-divisionLine {
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-top: 0.5rem solid #ff7b00; }
+
+.main {
+  margin-top: 4rem; }
+  .main-law {
+    text-align: center;
+    padding: 2rem; }
+  .main-materials {
+    padding: 0 4rem; }
+    .main-materials ul {
+      margin-bottom: 3rem; }
+  .main-method {
+    padding: 0 4rem; }
