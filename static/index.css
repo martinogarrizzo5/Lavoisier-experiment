@@ -120,6 +120,7 @@ body {
     .main-materials ul {
       margin-bottom: 3rem; }
     .main-materials img {
+      border: 1px solid black;
       width: 15rem;
       margin: 1rem; }
       .main-materials img:hover {
@@ -134,6 +135,7 @@ body {
     .main-method-list li {
       margin-bottom: 2rem; }
     .main-method-list img {
+      border: 1px solid black;
       width: 15rem;
       margin: 1rem; }
       .main-method-list img:hover {
