@@ -131,8 +131,20 @@ body {
     .main-method-list img {
       width: 15rem; }
 
+.observations {
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 4rem; }
+
 .finish {
-  padding: 2rem; }
+  margin-bottom: 4rem;
+  text-align: center;
+  padding: 1rem; }
+
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 0.4rem; }
 
 @media (max-width: 700px) {
   html {
