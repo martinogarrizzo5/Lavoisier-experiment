@@ -120,7 +120,12 @@ body {
     .main-materials ul {
       margin-bottom: 3rem; }
     .main-materials img {
-      width: 15rem; }
+      width: 15rem;
+      margin: 1rem; }
+      .main-materials img:hover {
+        transform: scale(1.1);
+        outline: 0.3rem solid #d43808;
+        outline-offset: 0.2rem; }
     .main-materials .row {
       margin-bottom: 4rem; }
   .main-method {
@@ -129,7 +134,12 @@ body {
     .main-method-list li {
       margin-bottom: 2rem; }
     .main-method-list img {
-      width: 15rem; }
+      width: 15rem;
+      margin: 1rem; }
+      .main-method-list img:hover {
+        transform: scale(1.1);
+        outline: 0.3rem solid #d43808;
+        outline-offset: 0.2rem; }
 
 .observations {
   padding: 1rem;
