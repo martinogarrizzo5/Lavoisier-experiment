@@ -14,9 +14,10 @@ a {
 
 li {
   font-size: 1.4rem; }
-  li p,
   li h3 {
     font-size: 1.4rem; }
+  li p {
+    font-size: 1.3rem; }
 
 @keyframes moveInLeft {
   0% {
@@ -111,6 +112,8 @@ body {
     padding: 0 3rem; }
     .main-method-list li {
       margin-bottom: 2rem; }
+    .main-method-list img {
+      width: 15rem; }
 
 @media (max-width: 700px) {
   html {
