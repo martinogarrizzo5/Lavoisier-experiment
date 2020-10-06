@@ -122,9 +122,10 @@ body {
     .main-materials img {
       border: 1px solid black;
       width: 15rem;
-      margin: 1rem; }
+      margin: 1rem;
+      transition: all 0.2s; }
       .main-materials img:hover {
-        transform: scale(1.1);
+        transform: scale(1.2);
         outline: 0.3rem solid #d43808;
         outline-offset: 0.2rem; }
     .main-materials .row {
@@ -135,6 +136,7 @@ body {
     .main-method-list li {
       margin-bottom: 2rem; }
     .main-method-list img {
+      transition: all 0.2s;
       border: 1px solid black;
       width: 15rem;
       margin: 1rem; }

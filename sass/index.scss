@@ -116,9 +116,10 @@ body {
             border: 1px solid black;
             width: 15rem;
             margin: 1rem;
+            transition: all 0.2s;
 
             &:hover {
-                transform: scale(1.1);
+                transform: scale(1.2);
                 outline: 0.3rem solid rgb(212, 56, 8);
                 outline-offset: 0.2rem;
             }
@@ -139,6 +140,7 @@ body {
             }
 
             img {
+                transition: all 0.2s;
                 border: 1px solid black;
                 width: 15rem;
                 margin: 1rem;

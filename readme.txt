@@ -1,0 +1,1 @@
+if you download the project and you need to see the page, you only need to open index.html on a browser
