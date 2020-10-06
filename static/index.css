@@ -14,6 +14,9 @@ a {
 
 li {
   font-size: 1.4rem; }
+  li p,
+  li h3 {
+    font-size: 1.4rem; }
 
 @keyframes moveInLeft {
   0% {
@@ -47,8 +50,7 @@ li {
 
 body {
   background-color: whitesmoke;
-  box-sizing: border-box;
-  font-size: 62.5%; }
+  box-sizing: border-box; }
 
 .navbar {
   position: fixed;
@@ -98,8 +100,18 @@ body {
     text-align: center;
     padding: 2rem; }
   .main-materials {
-    padding: 0 4rem; }
+    padding: 0 3rem; }
     .main-materials ul {
       margin-bottom: 3rem; }
+    .main-materials img {
+      width: 15rem; }
+    .main-materials .row {
+      margin-bottom: 4rem; }
   .main-method {
-    padding: 0 4rem; }
+    padding: 0 3rem; }
+    .main-method-list li {
+      margin-bottom: 2rem; }
+
+@media (max-width: 700px) {
+  html {
+    font-size: 80%; } }
